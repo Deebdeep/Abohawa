@@ -16,7 +16,7 @@ $(document).ready(function() {
   setInterval(function() {
     $('body').css('background-image', 'url("' + urls[cout] + '")');
     cout == urls.length-1 ? cout = 0 : cout++;
-  }, 10000);
+  }, 20000);
 
 
 
